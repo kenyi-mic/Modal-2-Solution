@@ -1,0 +1,217 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #ccc;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.content-menu{
+	width: 100%
+	height:auto;
+
+}
+
+.dish{
+	width:31.8%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	float: left;
+	margin:10px;
+}
+
+.dish-soup{
+	width:31.8%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	float: left;
+	margin:10px;
+
+}
+
+.dish-shaya{
+	width:31.8%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	float: left;
+	margin:10px ;
+}
+
+h2,p{
+	margin: 10px;
+	clear:both;
+}
+
+h2{
+	float: right;
+	clear:both;
+	background: #00ff;
+	position: relative;
+	padding: 0px 10px 0px 10px;
+	bottom: 10px;
+	left:10px;
+}
+
+.first{
+	background: red;
+}
+
+.second{
+	background: green;
+}
+
+@media(min-width: 992px){
+	.content-menu{
+	width: 100%
+	height:auto;
+
+}
+
+.dish{
+	width:31.3%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	float: left;
+	margin:10px;
+	
+}
+
+.dish-soup{
+	width:31.3%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	float: left;
+	margin:10px;
+	
+
+}
+
+.dish-shaya{
+	width:31.3%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	float: left;
+	margin:10px ;
+	
+}
+
+h2,p{
+	margin: 10px;
+	clear:both;
+}
+
+h2{
+	float: right;
+	clear:both;
+	background: #00ff;
+	position: relative;
+	padding: 0px 10px 0px 10px;
+	bottom: 10px;
+	left:10px;
+}
+
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.dish{
+	width:47.4%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	float: left;
+	margin:10px;
+}
+
+.dish-soup{
+	width:47.4%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	float: left;
+	margin:10px;
+
+}
+
+.dish-shaya{
+	width:97%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	float: left;
+	margin:10px ;
+}
+
+h2,p{
+	margin: 10px;
+	clear:both;
+}
+
+h2{
+	float: right;
+	clear:both;
+	background: #00ff;
+	position: relative;
+	padding: 0px 10px 0px 10px;
+	bottom: 10px;
+	left:10px;
+}
+
+}
+
+@media(min-width:360px) and (max-width: 767px){
+	.dish{
+	width:94.4%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	/*float: left;*/
+	margin:10px;
+}
+
+.dish-soup{
+	width:94.4%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	/*float: left;*/
+	margin:10px;
+
+}
+
+.dish-shaya{
+	width:94.4%;
+	height: auto;
+	background: #0eff;
+	border:1px solid #000;
+	/*float: left;*/
+	margin:10px ;
+}
+
+h2,p{
+	margin: 10px;
+	clear:both;
+}
+
+h2{
+	float: right;
+	clear:both;
+	background: #00ff;
+	position: relative;
+	padding: 0px 10px 0px 10px;
+	bottom: 10px;
+	left:10px;
+}
+}
+
